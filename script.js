@@ -28,3 +28,29 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(section);
   });
 });
+
+function toggleFullscreen() {
+    const mapContainer = document.querySelector('.map-container');
+    const button = document.querySelector('.fullscreen-btn');
+    const body = document.body;
+    const iframe = mapContainer.querySelector('iframe');
+
+    if (!mapContainer.classList.contains('fullscreen')) {
+        mapContainer.classList.add('fullscreen');
+        body.classList.add('map-fullscreen');
+        button.innerHTML = '✖ Exit';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+    } else {
+        mapContainer.classList.remove('fullscreen');
+        body.classList.remove('map-fullscreen');
+        button.innerHTML = '⛶ Fullscreen';
+        document.body.style.overflow = ''; // Restore scrolling
+    }
+}
+
+// Allow ESC key to exit fullscreen
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && document.querySelector('.map-container.fullscreen')) {
+        toggleFullscreen();
+    }
+});

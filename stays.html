@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stays - Japan Trip Plan</title>
+    <link rel="icon" type="image/x-icon" href="japan.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Japan Trip Plan</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="index.html" class="nav-btn">Plan</a>
+                <a href="prices.html" class="nav-btn">Prices</a>
+                <a href="map.html" class="nav-btn">Map</a>
+                <a href="time.html" class="nav-btn">Best Times</a>
+                <a href="16days.html" class="nav-btn">16 Days</a>
+                <a href="stays.html" class="nav-btn active">Stays</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="intro" class="fade-in">
+            <h1>🏨 Accommodation Options</h1>
+            <p>Select your stays and calculate total accommodation costs.</p>
+        </section>
+
+        <section id="stays-calculator" class="fade-in">
+            <div class="stays-grid">
+                <!-- Tokyo -->
+                <div class="stay-region">
+                    <h2>🗼 Tokyo</h2>
+                    <div class="stay-item">
+                        <h3>花乃郷 北小岩</h3>
+                        <p><strong>Price:</strong> $48/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="48" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-H6kiYW7" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                    <div class="stay-item">
+                        <h3>Enzo Tokyo</h3>
+                        <p><strong>Price:</strong> $44/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="44" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-4YNIlAM" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                </div>
+
+                <!-- Kyoto -->
+                <div class="stay-region">
+                    <h2>🏯 Kyoto</h2>
+                    <div class="stay-item">
+                        <h3>RESI STAY THE KYOTO</h3>
+                        <p><strong>Price:</strong> $67/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="67" class="nights-input"></p>
+                        <a href="https://www.booking.com/hotel/jp/resi-stay-the-kyoto.html" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                </div>
+
+                <!-- Osaka -->
+                <div class="stay-region">
+                    <h2>🌃 Osaka</h2>
+                    <div class="stay-item">
+                        <h3>Hotel Osaka Castle</h3>
+                        <p><strong>Price:</strong> $52/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="52" class="nights-input"></p>
+                        <a href="https://www.booking.com/hotel/jp/osaka-castle.html" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                    <div class="stay-item">
+                        <h3>BESTIE by DOYANEN</h3>
+                        <p><strong>Price:</strong> $40/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="40" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-ZpDCcp" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                    <div class="stay-item">
+                        <h3>Hotel Sunlife</h3>
+                        <p><strong>Price:</strong> $42/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="42" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-aSXefg" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                    <div class="stay-item">
+                        <h3>民泊 古</h3>
+                        <p><strong>Price:</strong> $40/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="40" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-aPj3dY" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                    <div class="stay-item">
+                        <h3>大阪難波ELLY-four</h3>
+                        <p><strong>Price:</strong> $54/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="54" class="nights-input"></p>
+                        <a href="https://www.booking.com/hotel/jp/da-ban-nan-bo-elly.html" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                </div>
+
+                <!-- Hiroshima -->
+                <div class="stay-region">
+                    <h2>🕊️ Hiroshima</h2>
+                    <div class="stay-item">
+                        <h3>OUCHI HOTEL Fujimi</h3>
+                        <p><strong>Price:</strong> $47/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="47" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-6tdigo6" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                </div>
+
+                <!-- Fukuoka -->
+                <div class="stay-region">
+                    <h2>🍜 Fukuoka</h2>
+                    <div class="stay-item">
+                        <h3>skyroom ijiri</h3>
+                        <p><strong>Price:</strong> $27/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="27" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-OpWeNgF" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                </div>
+
+                <!-- Beppu -->
+                <div class="stay-region">
+                    <h2>♨️ Beppu</h2>
+                    <div class="stay-item">
+                        <h3>海天ハウス花木302</h3>
+                        <p><strong>Price:</strong> $48/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="48" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-EzGr5nY" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                    <div class="stay-item">
+                        <h3>FLORA house</h3>
+                        <p><strong>Price:</strong> $58/night</p>
+                        <p><strong>Nights:</strong> <input type="number" min="0" max="14" value="0" data-price="58" class="nights-input"></p>
+                        <a href="https://www.booking.com/Share-22lAkZi" target="_blank" class="stay-link">View on Booking.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-cost">
+                <h2>💰 Total Cost: <span id="total-price">$0</span></h2>
+                <p class="note">Select the number of nights for each accommodation to calculate total cost</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const inputs = document.querySelectorAll('.nights-input');
+            const totalPriceElement = document.getElementById('total-price');
+            let previousTotal = 0;
+
+            function animateValue(start, end, duration) {
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    const currentValue = Math.floor(progress * (end - start) + start);
+                    totalPriceElement.textContent = `$${currentValue}`;
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            function calculateTotal() {
+                const total = Array.from(inputs).reduce((sum, input) => {
+                    return sum + (input.value * input.dataset.price);
+                }, 0);
+
+                // Add animation classes based on value change
+                totalPriceElement.classList.remove('counting', 'decreasing');
+                if (total > previousTotal) {
+                    totalPriceElement.classList.add('counting');
+                } else if (total < previousTotal) {
+                    totalPriceElement.classList.add('decreasing');
+                }
+
+                // Animate the counter
+                animateValue(previousTotal, total, 500);
+                previousTotal = total;
+
+                // Remove animation classes after transition
+                setTimeout(() => {
+                    totalPriceElement.classList.remove('counting', 'decreasing');
+                }, 500);
+            }
+
+            inputs.forEach((input, index) => {
+                input.style.animationDelay = `${index * 100}ms`;
+                input.addEventListener('change', calculateTotal);
+                input.addEventListener('input', calculateTotal);
+            });
+        });
+    </script>
+</body>
+</html>
