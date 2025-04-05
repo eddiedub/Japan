@@ -1,0 +1,69 @@
+---Done:
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Sushi at Tsukiji Market
+image 2: Kaiseki or izakaya lunch near Ginza/Odaiba
+image 3: Kaiten sushi or kaisen don at Uogashi Nihon-Ichi
+image 4: Ramen in Shinjuku (Ichiran/Ippudo)
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Kissaten café or konbini (egg sandwich/onigiri)
+image 2: Yakitori in Omoide Yokocho
+image 3: Omakase in Ginza/Shibuya
+image 4: Snacks: Taiyaki, matcha soft cream, Harajuku crepes
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Yuba dishes (tofu skin)
+image 2: Matcha ice cream, mochi
+image 3: Pack konbini snacks for the day
+image 4: Black eggs, onsen tamago, soba noodles
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Kaiseki ryori at ryokan
+image 2: Matcha soft cream
+image 3: Matcha parfait, wagashi
+image 4: Obanzai or matcha café
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Nishiki Market snacks
+image 2: Yudofu
+image 3: Shojin ryori
+image 4: Snacks: Yatsuhashi, tofu soft serve
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Nara Lunch: Kakinoha sushi, mochi
+image 2: Takoyaki
+image 3: okonomiyaki
+image 4: kushikatsu
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: taiyaki
+image 2: Soulful, seafood-focused
+image 3: Okonomimura
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Hiroshima izakaya, lemon sours
+image 2: Ramen capital
+image 3: Tonkotsu ramen
+image 4: Yatai stalls - yakitori, gyoza, mentaiko
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Dessert: Amaou strawberries
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Snack: Onsen-pudding
+image 2: Rural comfort
+image 3: Chicken nanban, soba
+image 4: Kumamoto beef
+
+Batch Generate these 4 images in 4 seperate images, use a square shape for each of the 4 seperate images.
+image 1: Tofu
+image 2: Veg tempura
+image 3: Matcha lattes
+image 4: Hokkaido soft cream
+
+Batch Generate these 3 images in 3 seperate images, use a square shape for each of the 3 seperate images.
+image 1: Jigoku mushi
+image 2: Rare KitKats & Pocky
+image 3: Miyajima Snacks: Momiji manju, oysters
+
+---Do:
