@@ -20,14 +20,47 @@
         <a href="time.html" class="nav-btn">Best Times</a>
         <a href="16days.html" class="nav-btn">16 Days</a>
         <a href="stays.html" class="nav-btn">Stays</a>
+        <a href="eating.html" class="nav-btn">Food</a>
       </div>
     </div>
   </nav>
 
   <main>
+    <button id="calculatorBtn" class="calculator-btn">💱 $ ⇄ ¥</button>
+    
+    <div id="calculatorOverlay" class="calculator-overlay">
+      <div class="calculator-container">
+        <button class="close-btn">✖</button>
+        <h2>Currency Converter</h2>
+        <div class="converter-group">
+          <div class="input-group">
+            <label for="usdInput">USD ($)</label>
+            <input type="number" id="usdInput" placeholder="Enter USD">
+          </div>
+          <div class="arrow">⇵</div>
+          <div class="input-group">
+            <label for="jpyInput">JPY (¥)</label>
+            <input type="number" id="jpyInput" placeholder="Enter JPY">
+          </div>
+        </div>
+        <p class="exchange-rate">1 USD = ~145 JPY</p>
+      </div>
+    </div>
+
     <!-- Budget Overview Section -->
     <section class="fade-in">
       <h1>🧾 Final Budget Summary – 14 Days in Japan</h1>
+      <div class="media-grid">
+        <div class="media-card">
+          <img src="Images/Japan Accommodation Image.png" alt="Accommodation Options">
+        </div>
+        <div class="media-card">
+          <img src="Images/JR Pass.png" alt="JR Pass">
+        </div>
+        <div class="media-card">
+          <img src="Images/Local Transport Image.png" alt="Local Transport">
+        </div>
+      </div>
       <p class="note"><em>Excluding International Flights</em></p>
       
       <div class="budget-grid">
@@ -82,12 +115,138 @@
       </div>
     </section>
 
+    <!-- Premium Budget Section -->
+    <section class="fade-in">
+      <h1>💎 Premium Budget Option - $2,000</h1>
+      <p>Upgraded accommodation plan focusing on private, peaceful stays.</p>
+      
+      <div class="budget-grid">
+        <div class="budget-item">
+          <h3>🏨 Accommodation</h3>
+          <p>Private rooms, no shared spaces</p>
+          <p class="price">$925</p>
+          <p class="detail">Upgraded from $650</p>
+          <p class="note">All private rooms, no hostels or dorms</p>
+        </div>
+
+        <div class="budget-item">
+          <h3>🚄 Transport</h3>
+          <p>JR Pass + Local Transport</p>
+          <p class="price">$355</p>
+          <p class="detail">Reduced due to Osaka arrival/departure</p>
+        </div>
+
+        <div class="budget-item">
+          <h3>🍱 Food & Dining</h3>
+          <p>Local restaurants and cafes</p>
+          <p class="price">$270</p>
+          <p class="detail">No change from base plan</p>
+        </div>
+
+        <div class="budget-item">
+          <h3>🎟️ Attractions</h3>
+          <p>Temples, museums, experiences</p>
+          <p class="price">$120</p>
+          <p class="detail">No change from base plan</p>
+        </div>
+
+        <div class="budget-item">
+          <h3>🎁 Souvenirs</h3>
+          <p>Gifts and memories</p>
+          <p class="price">$150</p>
+          <p class="detail">No change from base plan</p>
+        </div>
+      </div>
+
+      <div class="total-budget premium-total">
+        <h2>💵 Premium Total: $1,950</h2>
+        <p class="note">$50 buffer remains for flexibility</p>
+      </div>
+
+      <!-- Accommodation Breakdown -->
+      <div class="premium-stays-grid">
+        <h2>🏨 Premium Accommodation Plan</h2>
+        <div class="daily-expenses">
+          <div class="day-item">
+            <h3>Tokyo (4 nights)</h3>
+            <p><strong>Stay:</strong> Hananosato Kita-Koiwa</p>
+            <p><strong>Price/Night:</strong> $48</p>
+            <p><strong>Total:</strong> $192</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Hakone (1 night)</h3>
+            <p><strong>Stay:</strong> Private Ryokan</p>
+            <p><strong>Price/Night:</strong> $80</p>
+            <p><strong>Total:</strong> $80</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Kyoto (2 nights)</h3>
+            <p><strong>Stay:</strong> RESI STAY THE KYOTO</p>
+            <p><strong>Price/Night:</strong> $67</p>
+            <p><strong>Total:</strong> $134</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Osaka/Nara (2 nights)</h3>
+            <p><strong>Stay:</strong> Minpaku Ko or Hotel Sunlife</p>
+            <p><strong>Price/Night:</strong> $42</p>
+            <p><strong>Total:</strong> $84</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Hiroshima (2 nights)</h3>
+            <p><strong>Stay:</strong> OUCHI HOTEL Fujimi</p>
+            <p><strong>Price/Night:</strong> $47</p>
+            <p><strong>Total:</strong> $94</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Fukuoka (1 night)</h3>
+            <p><strong>Stay:</strong> Skyroom Ijiri</p>
+            <p><strong>Price/Night:</strong> $27</p>
+            <p><strong>Total:</strong> $27</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Beppu (1 night)</h3>
+            <p><strong>Stay:</strong> FLORAhouse</p>
+            <p><strong>Price/Night:</strong> $58</p>
+            <p><strong>Total:</strong> $58</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Takachiho (1 night)</h3>
+            <p><strong>Stay:</strong> Takachiho Ryokan</p>
+            <p><strong>Price/Night:</strong> $70</p>
+            <p><strong>Total:</strong> $70</p>
+          </div>
+
+          <div class="day-item">
+            <h3>Tokyo Final (1 night)</h3>
+            <p><strong>Stay:</strong> Hananosato Kita-Koiwa</p>
+            <p><strong>Price/Night:</strong> $48</p>
+            <p><strong>Total:</strong> $48</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="budget-notes">
+        <p>✨ All accommodations feature private rooms</p>
+        <p>✨ Focus on peaceful, quiet environments</p>
+        <p>✨ Perfect for solo travelers valuing privacy</p>
+        <p>✨ Local charm and authentic experiences</p>
+      </div>
+    </section>
+
     <!-- Daily Breakdown Section -->
     <section class="fade-in">
       <h2>📅 Daily Budget Breakdown</h2>
       <div class="daily-expenses">
         <!-- Day 1 -->
         <div class="day-item">
+          <img src="Images/Sushi at Tsukiji Market.png" alt="Sushi">
           <h3>Day 1: Arrival in Tokyo</h3>
           <ul>
             <li><strong>🏨 Accommodation:</strong> <a href="https://www.booking.com/hotel/jp/khaosan-tokyo-origami.html" target="_blank">Khaosan Tokyo Origami</a> ($40)</li>
@@ -100,6 +259,7 @@
 
         <!-- Day 2 -->
         <div class="day-item">
+          <img src="Images/Ramen in Shinjuku.png" alt="Ramen">
           <h3>Day 2: Tokyo</h3>
           <ul>
             <li><strong>🏨 Accommodation:</strong> <a href="https://www.booking.com/hotel/jp/khaosan-tokyo-origami.html" target="_blank">Khaosan Tokyo Origami</a> ($40)</li>

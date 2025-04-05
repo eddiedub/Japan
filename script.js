@@ -29,6 +29,58 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// Currency Calculator
+document.addEventListener('DOMContentLoaded', function() {
+  const calculatorBtn = document.getElementById('calculatorBtn');
+  const calculatorOverlay = document.getElementById('calculatorOverlay');
+  const closeBtn = calculatorOverlay.querySelector('.close-btn');
+  const usdInput = document.getElementById('usdInput');
+  const jpyInput = document.getElementById('jpyInput');
+  
+  // Exchange rate (can be updated)
+  const EXCHANGE_RATE = 145;
+  
+  calculatorBtn.addEventListener('click', () => {
+    calculatorOverlay.style.display = 'flex';
+  });
+  
+  closeBtn.addEventListener('click', () => {
+    calculatorOverlay.style.display = 'none';
+  });
+  
+  // Close on overlay click
+  calculatorOverlay.addEventListener('click', (e) => {
+    if (e.target === calculatorOverlay) {
+      calculatorOverlay.style.display = 'none';
+    }
+  });
+  
+  // USD to JPY conversion
+  usdInput.addEventListener('input', () => {
+    if (usdInput.value) {
+      jpyInput.value = Math.round(usdInput.value * EXCHANGE_RATE);
+    } else {
+      jpyInput.value = '';
+    }
+  });
+  
+  // JPY to USD conversion
+  jpyInput.addEventListener('input', () => {
+    if (jpyInput.value) {
+      usdInput.value = (jpyInput.value / EXCHANGE_RATE).toFixed(2);
+    } else {
+      usdInput.value = '';
+    }
+  });
+  
+  // Close on ESC key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && calculatorOverlay.style.display === 'flex') {
+      calculatorOverlay.style.display = 'none';
+    }
+  });
+});
+
 function toggleFullscreen() {
     const mapContainer = document.querySelector('.map-container');
     const button = document.querySelector('.fullscreen-btn');
